@@ -1,0 +1,65 @@
+html {
+    background-color: #42d1f4;
+}
+body {
+    background-color: #e0e0e0;
+    font-family: "Helvetica";
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    padding-top: 30px;
+    
+    }
+p.about {
+    color: black;
+    font-size: 20px;
+    }    
+p.skills {
+    color:black;
+    font-size: 20px;
+    margin: 0px;
+    }
+
+h1, h2 {
+    font-family: "Arial";
+    }
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+footer {
+    text-align: center;
+    border: 5px solid black;
+    margin-top: 30px;
+}
+
+#twit:link {
+    text-decoration: none;
+    color:green;
+}
+
+#twit:visited{
+    color: blue;
+}
+
+#twit:hover{
+    color: purple;
+}
+
+#mail:link {
+    color:blue;
+}
+
+#mail:visited{
+    color: blue;
+}
+
+#mail:hover{
+    color: purple;
+}
