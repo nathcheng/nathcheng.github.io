@@ -1,65 +1,159 @@
-html {
-    background-color: #42d1f4;
-}
-body {
-    background-color: #e0e0e0;
-    font-family: "Helvetica";
-    width: 90%;
-    margin: auto;
-    padding: 10px;
-    padding-top: 30px;
-    
-    }
-p.about {
-    color: black;
-    font-size: 20px;
-    }    
-p.skills {
-    color:black;
-    font-size: 20px;
-    margin: 0px;
-    }
+/*
+  fonts:
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-family: 'Dosis', sans-serif;
 
-h1, h2 {
-    font-family: "Arial";
-    }
+  #0065aa
+  #004084
 
-h1 {
-    font-size: 40px;
-    text-align: center;
+*/
+
+.intro-left {
+  height: 100vh;
+  background-color:#002266;
 }
 
-h2 {
-    font-size: 25px;
+#pic{
+  position: fixed;
+  margin-left: 60px;
+  bottom: 470px;
+  z-index: 1000;
 }
 
-footer {
-    text-align: center;
-    border: 5px solid black;
-    margin-top: 30px;
+.intro-right{
+  height: 100vh;
+  background-color: #fcfcfc;
 }
 
-#twit:link {
-    text-decoration: none;
-    color:green;
+#intro-description{
+  margin-top: 50px;
+  padding-right: 120px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 28px;
 }
 
-#twit:visited{
-    color: blue;
+#intro-name{
+  font-size: 120px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  text-transform: uppercase;
 }
 
-#twit:hover{
-    color: purple;
+#intro-first{
+  margin-left: 50px;
+  position: relative;
+  top: 230px;
+  left: 0;
 }
 
-#mail:link {
-    color:blue;
+#email-pic{
+  margin-left: 300px;
+  margin-top: 17px;
 }
 
-#mail:visited{
-    color: blue;
+.skills-right{
+  height: 100vh;
+  background-color: #fcfcfc;
 }
 
-#mail:hover{
-    color: purple;
+#skills-first{
+  margin-left: 50px;
+  position:relative;
+  top: 40px;
+}
+
+#skills-name{
+  font-size: 70px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+#skills-list{
+  font-size: 28px;
+  font-family: 'Dosis', sans-serif;
+  margin-top: 50px;
+  padding-right: 120px;
+}
+
+.education{
+  height: 100vh;
+  background-color: #fcfcfc;
+}
+
+#education-first{
+  margin-left: 50px;
+  position:relative;
+  top: 70px;
+}
+
+#education-name{
+  font-size: 70px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+#education-school{
+  font-size: 35px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+#education-program{
+  font-size: 25px;
+  color: #666666;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  text-transform: uppercase;
+  margin-bottom:20px;
+}
+
+#education-list{
+  font-size: 28px;
+  font-family: 'Dosis', sans-serif;
+  margin-top: 30px;
+  padding-right: 120px;
+}
+
+.experience{
+  height: 100vh;
+  background-color: #fcfcfc;
+}
+
+#experience-first{
+  margin-left: 50px;
+  position:relative;
+  top: 70px;
+}
+
+#experience-name{
+  font-size: 70px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+.experience-type{
+  font-size: 28px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.experience-type-date{
+  font-size: 28px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  text-transform: uppercase;
+
+  float: right;
+  position: relative;
+  bottom: 40px;
+  right:40px;
+  color: #002266;
+}
+
+.experience-list{
+  font-size: 25px;
+  font-family: 'Dosis', sans-serif;
+  margin-top: 30px;
+  padding-right: 120px;
+  line-height: 1.8;
 }
