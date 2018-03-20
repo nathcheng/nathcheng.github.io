@@ -2,11 +2,23 @@
   fonts:
   font-family: 'Saira Extra Condensed', sans-serif;
   font-family: 'Dosis', sans-serif;
-
+font-family: 'Cabin', sans-serif;
   #0065aa
   #004084
 
 */
+
+a:link{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
 
 .intro-left {
   height: 100vh;
@@ -15,9 +27,49 @@
 
 #pic{
   position: fixed;
-  margin-left: 60px;
+  left: 65px;
   bottom: 470px;
   z-index: 1000;
+}
+
+#home-button{
+  font-family: 'Cabin', sans-serif;
+  font-size: 20px;
+  position:fixed;
+  left: 145px;
+  bottom: 400px;
+  z-index: 1000;
+  text-transform: uppercase;
+}
+
+#skills-button{
+  font-family: 'Cabin', sans-serif;
+  font-size: 20px;
+  position:fixed;
+  left: 145px;
+  bottom: 370px;
+  z-index: 1000;
+  text-transform: uppercase;
+}
+
+#education-button{
+  font-family: 'Cabin', sans-serif;
+  font-size: 20px;
+  position:fixed;
+  left: 145px;
+  bottom: 340px;
+  z-index: 1000;
+  text-transform: uppercase;
+}
+
+#experience-button{
+  font-family: 'Cabin', sans-serif;
+  font-size: 20px;
+  position:fixed;
+  left: 145px;
+  bottom: 310px;
+  z-index: 1000;
+  text-transform: uppercase;
 }
 
 .intro-right{
